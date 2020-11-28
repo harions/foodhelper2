@@ -3,37 +3,58 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link rel="stylesheet" href="style/style.css">
-  <title>Parallax Template - Materialize</title>
+  <title>Foodhelper</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="style/navbar_style.css">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 <header class="header">
-  <nav>
-    <div class="nav-wrapper red darken-4">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="Reservation.html">Зарезервувати столик</a></li>
-        <li><a href="Dostavka.html">Замовити додому</a></li>
-      </ul>
+  <div class="navbar-fixed ">
+    <nav class="white" role="navigation">
+        <nav> 
+          <div class="nav-wrapper orange darken-1">
+            <a href="index.html" class="brand-logo"><img class="logoimg" src="img/Logo2.png" alt=""></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="Dostavka.html" class="waves-effect white black-text btn-large"><b>Замовити додому</b></a></li>
+              <li><a href="Reservation.html" class="waves-effect white black-text btn-large "><b class="btn_text">Зарезервувати</b></a></li>
+            </ul>
+  
+  
+            <nav class="search white">
+              <div class="nav-wrapper">
+                <form>
+                  <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label class="label-icon " for="search"><i class="material-icons black-text">search</i></label>
+                    <i class="material-icons">close</i>
+                    <button href="#" class="btn btn-outline-success navbar_btnn grey lighten-2 black-text" type="submit">Search</button> 
+                  </div>
+                </form>
+              </div>
+            </nav>
+  
+  
+          </div>
+        </nav>
+    </nav>
     </div>
-  </nav>
-</header>
 
-<div class="card-panel">
+</header>
+ 
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="img/restaurant_hall.jpg" class="bg-image-restaurant"> 
+        <img src="img/new_hall.jpg" class="bg-image-restaurant"> 
         <div class="bg-text">
           <h3 class="grey-text text-lighten-5">Загруженність та резервація</h3>
           <h5 class="col s12 light grey-text text-lighten-4">Дізнайтеся у якому закладі більше вільних столиків.</h5>
           <h5 class="col s12 light grey-text text-lighten-4">Знайдіть найкращий заклад для проведення часу.</h5>
-          <a class="waves-effect waves-light btn pink darken-4" href="Reservation.html">Вибрати</a>
+          <a class="waves-effect waves-light btn deep-orange darken-3" href="Reservation.html">Вибрати</a>
         </div>
       </li>
       <li>
@@ -41,7 +62,7 @@
         <div class="bg-text">
           <h3 class="grey-text text-lighten-5">Попереднє замовлення</h3>
           <h5 class="col s12 light grey-text text-lighten-4">Забудьте про черги і очікування, ваше замовлення буде чекати вас ще до вашого прибуття!</h5>
-          <a class="waves-effect waves-light btn pink darken-4" href="Reservation.html">Замовити</a>
+          <a class="waves-effect waves-light btn deep-orange darken-3" href="Reservation.html">Замовити</a>
         </div>
       </li>
       <li>
@@ -50,12 +71,196 @@
           <h3 class="grey-text text-lighten-5">Доставка</h3>
           <h5 class="col s12 light grey-text text-lighten-4">Замовляйте свої улюбленні страви з улюблениих закладів!</h5>
           <h5 class="col s12 light grey-text text-lighten-4">Все на одному сайті</h5>
-          <a class="waves-effect waves-light btn pink darken-4" href="Dostavka.html">Замовити</a>
+          <a class="waves-effect waves-light btn deep-orange darken-3" href="Dostavka.html">Замовити</a>
         </div>
       </li>
     </ul>
   </div>
 </div>
+<br><br>
+
+<section class="section ">
+ <div class="row">
+   <div class="col s12 m4 l4">
+       <img src="img/img1.jpg" class="lef">
+   </div>
+   <div class="col s12 m8 l8 rec1_cont">
+    <h3 class="rec1_title center ">Салатоманія на <b class="orange-text">Foodhelper</b></h3>
+    <p class="rec1_text center grey-text">Знижки на всі салати при використання бонусної картки <b class="orange-text">Fooddrive</b>.Акція діє від 27.11.2020 до 20.10.2021</p>
+    <div class="butt center">
+      <a href="#" class="black-text btn white green-text text-accent-3 btn-border"><b>Дізнатися більше</b></a>
+      <a href="#" class="white-text btn green accent-3"><b>Купити по акції</b></a>
+    </div> 
+</div>
+ </div>
+</section>
+</div>
+<br><br>
+
+<section class="section">
+  <h3 class="rec_title center">Улюблені грузинські страви</h3>
+  <br><br>
+  <div class="row">
+    <div class="col s12 m3 l3">
+      <div class="card ">
+        <div class="card-image">
+          <img src="img/rec2_5.jpg" height="210px">
+        </div>
+        <div class="card-content ">
+          <h6>Ачма - для поціновувачів грузинської кухні</h6>
+          <p>Від 200г</p>
+        </div>
+        <div class="card-action">
+          <a href="#"><b>150 грн за штуку</b></a>
+        </div>
+      </div>
+    </div>
+   
+  <div class="col s12 m3 l3">
+    <div class="card">
+      <div class="card-image">
+        <img src="img/rec2_2.jpg">
+      </div>
+      <div class="card-content">
+        <h6>Смачна подорожня страва Хачапурі</h6>
+        <p>Від 600г</p>
+      </div>
+      <div class="card-action">
+        <a href="#"><b >100 грн за 1шт.</b></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m3 l3">
+    <div class="card">
+      <div class="card-image">
+        <img src="img/rec2_3.jpg">
+      </div>
+      <div class="card-content">
+        <h6>Улюблена грузинська страва- Лобіо</h6>
+        <p>Від 50г</p>
+      </div>
+      <div class="card-action">
+        <a href="#"><b>100 грн за порцію</b></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m3 l3">
+    <div class="card">
+      <div class="card-image">
+        <img src="img/rec2_4.jpg">
+      <div class="card-content">
+        <h6>Соковиті м'ясні мішечки Хінкалі</h6>
+        <p>Від 500г</p>
+      </div>
+      <div class="card-action">
+        <a href="#" ><b >200 грн за 500г.</b></a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="col s12 m3 l3">
+    <div class="card">
+      <div class="card-image">
+        <img src="img/rec2_6.jpg">
+      </div>
+      <div class="card-content">
+        <h6>Ароматна та смачна Чахохбілі</h6>
+        <p>Від 350г</p>
+      </div>
+      <div class="card-action">
+        <a href="#"><b>120 грн за порцію</b></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m3 l3">
+    <div class="card">
+      <div class="card-image">
+        <img src="img/rec2_7.jpg">
+      </div>
+      <div class="card-content">
+        <h6>Смачні пиріжки з сиром Чвіштарі</h6>
+        <p>Від 50г</p>
+      </div>
+      <div class="card-action">
+        <a href="#"><b>150грн за 400г</b></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h3 class="rec_title center">Найкращі ресторани вашого міста</h3>
+  <br><br>
+  <div class="row">
+    <div class="col s12 m3 l3">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/rec3_1.jpg"  >
+        </div>
+        <div class="card-content">
+          <h6>Ресторан італійської їжі "Mario"</h6>
+          <p>Київ, вул. Льва Толстого, 14</p>
+        </div>
+        <div class="card-action">
+          <a href="#"><b>Дізнатися </b></a>
+          <a href="#"><b>Зарезервувати </b></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3 l3">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/centaur.jpg" height="222px" >
+        </div>
+        <div class="card-content">
+          <h6>Кафе в центрі Львова «Centaur»</h6>
+          <p>Львів, Пл. Ринок, 34.</p>
+        </div>
+        <div class="card-action">
+          <a href="#"><b>Дізнатися </b></a>
+          <a href="#"><b>Зарезервувати </b></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3 l3">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/rec3_3.jpg" height="222px">
+        </div>
+        <div class="card-content">
+          <h6>Ресторан з меню на любий смак "Софи кафе"</h6>
+          <p>Одеса, провулок Некрасова, 7</p>
+        </div>
+        <div class="card-action">
+          <a href="#"><b>Дізнатися </b></a>
+          <a href="#"><b>Зарезервувати </b></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3 l3">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/rec3_4.jpg" height="222px">
+        </div>
+        <div class="card-content">
+          <h6>Ресторан європейської кухні "Судар"</h6>
+          <p>Полтава, вул. Анатолія Кукоби 47</p>
+        </div>
+        <div class="card-action">
+          <a href="#"><b>Дізнатися </b></a>
+          <a href="#"><b>Зарезервувати </b></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
   <footer class="page-footer teal">
     <div class="container">
@@ -96,7 +301,7 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js.js"></script>
+  <script src="scripts/home-page-slider.js"></script>
   <script src="js/materialize.js"></script>
 
   </body>
